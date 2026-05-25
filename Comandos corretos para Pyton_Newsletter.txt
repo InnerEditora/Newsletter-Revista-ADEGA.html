@@ -1,0 +1,3 @@
+cd C:\Users\felip\Desktop\Newsletter
+
+python newsletter_adega_final.py

@@ -1,0 +1,11 @@
+C:\Users\felip\Desktop\Newsletter\Antigos\newsletter_adega_final.py
+C:\Users\felip\Desktop\Newsletter\Antigos\newsletter_adega_outlook.py
+C:\Users\felip\Desktop\Newsletter\Antigos\newsletter_adega_refinado.py
+C:\Users\felip\Desktop\Newsletter\Antigos\newsletter_adega_refinado_v2.py
+C:\Users\felip\Desktop\Newsletter\Antigos\webhook_newsletter_adega_enviar.py
+C:\Users\felip\Downloads\newsletter_adega_final.py
+C:\Users\felip\Downloads\newsletter_adega_refinado.py
+C:\Users\felip\Downloads\newsletter_adega_refinado_v2.py
+
+
+C:\Users\felip\Desktop\Newsletter\Antigos>python newsletter_adega_final.py
