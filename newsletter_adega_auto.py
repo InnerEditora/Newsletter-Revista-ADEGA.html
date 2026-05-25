@@ -137,7 +137,7 @@ except subprocess.CalledProcessError as e:
     exit(1)
 
 # ============================================================
-# PASSO 3 — DUPLICAR CAMPANHA E DISPARAR NO RD STATION
+# PASSO 3 — CRIAR E DISPARAR CAMPANHA NO RD STATION
 # ============================================================
 
 print("▶ [3/3] Acessando RD Station...")
@@ -147,42 +147,31 @@ headers = {
     "Content-Type": "application/json"
 }
 
-# 3a. Duplicar a campanha base
-print(f"  → Duplicando campanha {RD_CAMPANHA_BASE_ID}...")
-url_duplicar = f"https://api.rd.services/emails/campaigns/{RD_CAMPANHA_BASE_ID}/clone"
+# 3a. Criar nova campanha
+print("  → Criando campanha...")
+url_criar = "https://api.rd.services/emails/campaigns"
 
-resp_clone = requests.post(url_duplicar, headers=headers)
-
-if resp_clone.status_code not in [200, 201]:
-    print(f"❌ Erro ao duplicar campanha: {resp_clone.status_code}")
-    print(resp_clone.text)
-    exit(1)
-
-nova_campanha = resp_clone.json()
-nova_id = nova_campanha.get("id") or nova_campanha.get("data", {}).get("id")
-print(f"  → Nova campanha criada com ID: {nova_id}")
-
-# 3b. Atualizar link, assunto e remetente
-print("  → Atualizando campanha...")
-url_atualizar = f"https://api.rd.services/emails/campaigns/{nova_id}"
-
-payload_update = {
+payload_campanha = {
+    "name": f"Newsletter ADEGA - {datetime.now().strftime('%d/%m/%Y')}",
     "subject": RD_ASSUNTO,
-    "sender_email": RD_EMAIL_REMETENTE,
     "sender_name": RD_NOME_REMETENTE,
-    "html_body_url": GITHUB_PAGES_URL
+    "sender_email": RD_EMAIL_REMETENTE,
+    "html_body_url": GITHUB_PAGES_URL,
+    "segmentation_ids": [13362958, 16949531, 18400489, 18909944]
 }
 
-resp_update = requests.patch(url_atualizar, headers=headers, data=json.dumps(payload_update))
+resp_criar = requests.post(url_criar, headers=headers, data=json.dumps(payload_campanha))
 
-if resp_update.status_code not in [200, 201]:
-    print(f"❌ Erro ao atualizar campanha: {resp_update.status_code}")
-    print(resp_update.text)
+if resp_criar.status_code not in [200, 201]:
+    print(f"❌ Erro ao criar campanha: {resp_criar.status_code}")
+    print(resp_criar.text)
     exit(1)
 
-print("  → Campanha atualizada!")
+nova_campanha = resp_criar.json()
+nova_id = nova_campanha.get("id") or nova_campanha.get("data", {}).get("id")
+print(f"  → Campanha criada com ID: {nova_id}")
 
-# 3c. Disparar
+# 3b. Disparar campanha
 print("  → Disparando campanha...")
 url_disparar = f"https://api.rd.services/emails/campaigns/{nova_id}/send"
 
