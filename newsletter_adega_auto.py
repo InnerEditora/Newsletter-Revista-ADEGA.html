@@ -129,7 +129,7 @@ try:
     else:
         print("  → Nenhuma alteração nova, seguindo para o push...")
 
-    subprocess.run([GIT_EXE, "-C", PASTA_NEWSLETTER, "push"], check=True)
+    subprocess.run([GIT_EXE, "-C", PASTA_NEWSLETTER, "push", "origin", "HEAD:main"], check=True)
     print("✅ Push realizado com sucesso!")
 except subprocess.CalledProcessError as e:
     print(f"⚠️ Erro no Git: {e}")
