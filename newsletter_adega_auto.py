@@ -118,7 +118,17 @@ data_hoje = datetime.now().strftime("%d/%m/%Y %H:%M")
 
 try:
     subprocess.run([GIT_EXE, "-C", PASTA_NEWSLETTER, "add", "."], check=True)
-    subprocess.run([GIT_EXE, "-C", PASTA_NEWSLETTER, "commit", "-m", f"Newsletter automática - {data_hoje}"], check=True)
+
+    resultado_commit = subprocess.run(
+        [GIT_EXE, "-C", PASTA_NEWSLETTER, "commit", "-m", f"Newsletter automática - {data_hoje}"],
+        capture_output=True, text=True
+    )
+
+    if resultado_commit.returncode == 0:
+        print("  → Commit realizado!")
+    else:
+        print("  → Nenhuma alteração nova, seguindo para o push...")
+
     subprocess.run([GIT_EXE, "-C", PASTA_NEWSLETTER, "push"], check=True)
     print("✅ Push realizado com sucesso!")
 except subprocess.CalledProcessError as e:
