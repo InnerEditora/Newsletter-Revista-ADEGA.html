@@ -1,0 +1,66 @@
+
+<div style='font-family:Arial,sans-serif; max-width:600px; margin:0 auto; padding:20px;'>
+  <div style='text-align:center; margin-bottom:30px;'>
+    <img src='https://revistaadega.uol.com.br/media/images/logo_adega.png' alt='Revista ADEGA' style='max-width:220px; height:auto;'>
+  </div>
+
+  <h1 style='text-align:center; color:#912e1f; font-size:24px; margin-bottom:10px;'>Revista ADEGA News</h1>
+  <p style='text-align:center; font-size:16px; color:#555; margin-bottom:40px;'>As novidades do mundo do vinho</p>
+
+    <div style='margin-bottom:50px; border-bottom:1px solid #ccc; padding-bottom:30px;'>
+      <img src='https://revistaadega.uol.com.br/media/uploads/harmonizacao-gsm.jpg' alt='GSM: o que é o blend clássico do Rhône e como harmonizar' style='width:100%; max-height:240px; object-fit:cover; border-radius:8px; margin-bottom:15px;'>
+      <h2 style='font-size:18px; color:#333; margin-bottom:20px;'>GSM: o que é o blend clássico do Rhône e como harmonizar</h2>
+      <div style='text-align:center;'>
+        <a href='https://revistaadega.uol.com.br/artigo/vinho-gsm-harmonizacoes-grenache-syrah-mourvedre.html' target='_blank' style='display:inline-block; background-color:#912e1f; color:#fff; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;'>
+          ➤ Leia a matéria completa
+        </a>
+      </div>
+    </div>
+    
+    <div style='margin-bottom:50px; border-bottom:1px solid #ccc; padding-bottom:30px;'>
+      <img src='https://revistaadega.uol.com.br/media/uploads/degustacao-adobestock-padrao.jpg' alt='Primeiro Campeonato Brasileiro de Degustação às Cegas será realizado em São Paulo' style='width:100%; max-height:240px; object-fit:cover; border-radius:8px; margin-bottom:15px;'>
+      <h2 style='font-size:18px; color:#333; margin-bottom:20px;'>Primeiro Campeonato Brasileiro de Degustação às Cegas será realizado em São Paulo</h2>
+      <div style='text-align:center;'>
+        <a href='https://revistaadega.uol.com.br/artigo/campeonato-brasileiro-de-degustacao-as-cegas-sao-paulo.html' target='_blank' style='display:inline-block; background-color:#912e1f; color:#fff; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;'>
+          ➤ Leia a matéria completa
+        </a>
+      </div>
+    </div>
+    
+    <div style='margin-bottom:50px; border-bottom:1px solid #ccc; padding-bottom:30px;'>
+      <img src='https://revistaadega.uol.com.br/media/uploads/vinho-e-a-humanidade.jpg' alt='NOVO VÍDEO! O papel da acidez na qualidade e estabilidade dos vinhos' style='width:100%; max-height:240px; object-fit:cover; border-radius:8px; margin-bottom:15px;'>
+      <h2 style='font-size:18px; color:#333; margin-bottom:20px;'>NOVO VÍDEO! O papel da acidez na qualidade e estabilidade dos vinhos</h2>
+      <div style='text-align:center;'>
+        <a href='https://revistaadega.uol.com.br/artigo/novo-video-o-papel-da-acidez-na-qualidade-e-estabilidade-dos-vinhos.html' target='_blank' style='display:inline-block; background-color:#912e1f; color:#fff; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;'>
+          ➤ Leia a matéria completa
+        </a>
+      </div>
+    </div>
+    
+    <div style='margin-bottom:50px; border-bottom:1px solid #ccc; padding-bottom:30px;'>
+      <img src='https://revistaadega.uol.com.br/media/uploads/entrevista.jpeg' alt='EM VIDEO: Uma conversa com Sebastian Zuccardi e Pancho Bugallo' style='width:100%; max-height:240px; object-fit:cover; border-radius:8px; margin-bottom:15px;'>
+      <h2 style='font-size:18px; color:#333; margin-bottom:20px;'>EM VIDEO: Uma conversa com Sebastian Zuccardi e Pancho Bugallo</h2>
+      <div style='text-align:center;'>
+        <a href='https://revistaadega.uol.com.br/artigo/cara-sur-vinhas-centenarias-valle-calingasta-zuccardi-bugallo.html' target='_blank' style='display:inline-block; background-color:#912e1f; color:#fff; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;'>
+          ➤ Leia a matéria completa
+        </a>
+      </div>
+    </div>
+    
+    <div style='margin-bottom:50px; border-bottom:1px solid #ccc; padding-bottom:30px;'>
+      <img src='https://revistaadega.uol.com.br/media/uploads/degustacao-as-cegas-e-as-claras.jpg' alt='Degustação às cegas x às claras: entenda os dois métodos' style='width:100%; max-height:240px; object-fit:cover; border-radius:8px; margin-bottom:15px;'>
+      <h2 style='font-size:18px; color:#333; margin-bottom:20px;'>Degustação às cegas x às claras: entenda os dois métodos</h2>
+      <div style='text-align:center;'>
+        <a href='https://revistaadega.uol.com.br/artigo/degustacao-vinhos-as-cegas-ou-as-claras.html' target='_blank' style='display:inline-block; background-color:#912e1f; color:#fff; padding:10px 20px; border-radius:6px; text-decoration:none; font-weight:bold; font-size:14px;'>
+          ➤ Leia a matéria completa
+        </a>
+      </div>
+    </div>
+    
+  <div style='text-align:center; margin-top:50px;'>
+    <a href='https://revistaadega.uol.com.br/' style='color:#912e1f; font-weight:bold; font-size:14px;'>Ver todas as matérias no site</a>
+  </div>
+  <div style='text-align:center; margin-top:40px;'>
+    <img src='https://d335luupugsy2.cloudfront.net/cms/files/730291/1745615983/$qpip5qpjcil' alt='Banner Comercial' style='width:100%; max-width:600px; height:auto; margin-top:30px; border-radius:6px;'>
+  </div>
+</div>
